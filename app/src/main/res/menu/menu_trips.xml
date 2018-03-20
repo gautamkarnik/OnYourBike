@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.gautamkarnik.onyourbike.activities.TripsActivity">
+
+    <item
+        android:id="@+id/menu_routes"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/menu_routes" />
+
+
+    <item
+        android:id="@+id/menu_settings"
+        android:orderInCategory="110"
+        app:showAsAction="never"
+        android:title="@string/menu_settings" />
+
+</menu>

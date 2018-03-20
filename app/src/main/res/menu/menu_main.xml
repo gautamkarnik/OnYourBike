@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/menu_share"
+        android:icon="@android:drawable/ic_menu_share"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="@string/menu_share" />
+
+    <item
+        android:id="@+id/menu_settings"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:orderInCategory="200"
+        android:title="@string/menu_settings"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_routes"
+        android:orderInCategory="300"
+        android:title="@string/menu_routes"
+        app:showAsAction="always|withText" />
+
+    <item
+        android:id="@+id/menu_map"
+        android:orderInCategory="400"
+        app:showAsAction="always|withText"
+        android:title="@string/menu_map" />
+
+    <item
+        android:id="@+id/menu_photo"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:orderInCategory="500"
+        app:showAsAction="always"
+        android:title="@string/menu_photo" />
+
+</menu>
